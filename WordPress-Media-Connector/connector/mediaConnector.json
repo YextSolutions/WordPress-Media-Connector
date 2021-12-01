@@ -43,16 +43,6 @@
       },
       {
         "type": "JSON",
-        "header": "Content",
-        "path": "content.rendered"
-      },
-      {
-        "type": "JSON",
-        "header": "Is Sticky",
-        "path": "sticky"
-      },
-      {
-        "type": "JSON",
         "header": "Date Posted (raw)",
         "path": "date"
       },
@@ -60,6 +50,31 @@
         "type": "JSON",
         "header": "Date Modified (raw)",
         "path": "modified"
+      },
+      {
+        "type": "JSON",
+        "header": "Caption",
+        "path": "caption.rendered"
+      },
+      {
+        "type": "JSON",
+        "header": "Alternative Caption",
+        "path": "alt_text"
+      },
+      {
+        "type": "JSON",
+        "header": "Width",
+        "path": "media_details.width"
+      },
+      {
+        "type": "JSON",
+        "header": "Height",
+        "path": "media_details.height"
+      },
+      {
+        "type": "JSON",
+        "header": "Source URL",
+        "path": "source_url"
       },
       {
         "type": "JSON",
@@ -75,31 +90,6 @@
         "type": "JSON",
         "header": "Author Description",
         "path": "_embedded.author[].description"
-      },
-      {
-        "type": "JSON",
-        "header": "Post Excerpt",
-        "path": "excerpt.rendered"
-      },
-      {
-        "type": "JSON",
-        "header": "Landing Page URL",
-        "path": "link"
-      },
-      {
-        "type": "JSON",
-        "header": "Photo Gallery",
-        "path": "_embedded.\"wp:featuredmedia\"[].link"
-      },
-      {
-        "type": "JSON",
-        "header": "Tags",
-        "path": "tags"
-      },
-      {
-        "type": "JSON",
-        "header": "Categories",
-        "path": "_embedded.\"wp:term\"[].name"
       }
     ]
   },
@@ -137,6 +127,31 @@
     {
       "field": "entityId",
       "header": "Entity ID",
+      "subfieldPath": []
+    },
+    {
+      "field": "wp_caption",
+      "header": "Caption",
+      "subfieldPath": []
+    },
+    {
+      "field": "wp_alternativeCaption",
+      "header": "Alternative Caption",
+      "subfieldPath": []
+    },
+    {
+      "field": "wp_width",
+      "header": "Width",
+      "subfieldPath": []
+    },
+    {
+      "field": "wp_height",
+      "header": "Height",
+      "subfieldPath": []
+    },
+    {
+      "field": "wp_sourceURL",
+      "header": "Source URL",
       "subfieldPath": []
     },
     {
